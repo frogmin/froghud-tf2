@@ -18,6 +18,10 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//custom
+		"Black_hud"         "0 0 0 225"
+		"White_hud"         "255 255 255 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3016,6 +3020,9 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		//Nordic Regular fonts
+		
 	    NordicaRegular12
 		{
 			"1"
@@ -3052,7 +3059,57 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-}
+
+		// Nordica Black (bold) fonts - HP/ammo
+		
+	    NordicaBlack12
+		{
+			"1"
+			{
+				"name"		"NordicaBlack"
+				"tall"		"12"
+				"antialias" 	"1"
+			}
+		}
+	    NordicaBlack16
+		{
+			"1"
+			{
+				"name"		"NordicaBlack"
+				"tall"		"16"
+				"antialias" 	"1"
+			}
+		}
+	    NordicaBlack24
+		{
+			"1"
+			{
+				"name"		"NordicaBlack"
+				"tall"		"24"
+				"antialias" 	"1"
+			}
+		}
+		    NordicaBlack42
+		{
+			"1"
+			{
+				"name"		"NordicaBlack"
+				"tall"		"42"
+				"antialias" 	"1"
+			}
+		}	
+		    NordicaBlack56
+		{
+			"1"
+			{
+				"name"		"NordicaBlack"
+				"tall"		"56"
+				"antialias" 	"1"
+			}
+		}	
+		
+		
+	}
 
 	// These are the fonts I'm using in my custom HUD
 	
