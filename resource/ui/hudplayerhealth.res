@@ -22,7 +22,7 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"25"
 		"ypos"			"15"
-		"zpos"			"4"
+		"zpos"			"0"
 		"wide"			"51"
 		"tall"			"51"
 		"visible"		"0"
@@ -33,10 +33,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
-		"zpos"			"3"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
@@ -48,10 +47,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"40"	[$WIN32]
-		"ypos"			"83"	[$WIN32]
+		"xpos"			"36"	[$WIN32]
+		"ypos"			"78"
 		"zpos"			"2"
-		"wide"			"170"	[$WIN32]
+		"wide"			"184"	[$WIN32]
 		"tall"			"200"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"1"
@@ -77,9 +76,9 @@
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"2"
-		"ypos"			"2"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"4"
 		"wide"			"250"
 		"tall"			"120"
@@ -87,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"NordicaBlack42"
+		"font"			"NordicaBlack42" 
 		"fgcolor"		"Black_hud"
 	}
 	"TeamIndicator"
@@ -95,9 +94,9 @@
 	    "ControlName" "CTFImagePanel"
 	    "fieldName" "TeamIndicator"
 	    "xpos" "90"
-	    "ypos" "80"
+	    "ypos" "75"
 	    "zpos" "2"
-	    "wide" "70"
+	    "wide" "75"
 		"tall" "3"
 		"autoResize"   "0"
 		"pinCorner"    "0"
@@ -115,18 +114,30 @@
 		"draw_corner_height" "0"
 	
 	}
+	  "AmmoBG"
+	{
+	    "ControlName" "ImagePanel"
+	    "fieldName" "AmmoBG"
+	    "xpos" "92"
+	    "ypos" "38"
+	    "zpos" "-1"
+	    "wide" "70"
+		"tall" "39"
+		"visible"      "1"
+		"enabled"      "1"
+		"fillcolor"    "0 0 0 120"
 	
+	}	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
+		"xpos"			"-99"
+		"ypos"			"-99"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
@@ -138,8 +149,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"120"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -202,7 +212,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"85"
+		"xpos"			"150"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -218,7 +228,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"85"
+		"xpos"			"150"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
